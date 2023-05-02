@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  resources :main, only: %i[index show create] do
+  resources :main, only: %i[index create] do
     collection do
-      get :callback
+      get :result
+      post :callback
     end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

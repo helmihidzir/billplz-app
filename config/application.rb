@@ -18,5 +18,6 @@ module BillplzApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.hosts << "161f-219-92-22-134.ngrok-free.app"
   end
 end
